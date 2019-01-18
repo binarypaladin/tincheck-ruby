@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <soap:Body>
+    <ServiceStatusResponse xmlns="http://www.TinCheck.com/WebServices/PVSService/">
+      <ServiceStatusResult>
+        <Status>OK</Status>
+        <CallsRemaining>No Limit</CallsRemaining>
+      </ServiceStatusResult>
+    </ServiceStatusResponse>
+  </soap:Body>
+</soap:Envelope>

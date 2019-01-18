@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <soap:Body>
+    <ValidateTinNameResponse xmlns="http://www.TinCheck.com/WebServices/PVSService/">
+      <ValidateTinNameResult>
+        <TINNAME_CODE>6</TINNAME_CODE>
+        <TINNAME_DETAILS>IRS Match found. TIN and Name combination matches IRS SSN records</TINNAME_DETAILS>
+        <DMF_CODE>0</DMF_CODE>
+        <DMF_DETAILS>No Death Master File Match Found.</DMF_DETAILS>
+        <DMF_DATA>
+        </DMF_DATA>
+        <EIN_CODE>0</EIN_CODE>
+        <EIN_DETAILS>No EIN Match found.</EIN_DETAILS>
+        <EIN_DATA>
+        </EIN_DATA>
+        <GIIN_CODE>-1</GIIN_CODE>
+        <GIIN_DETAILS>No GIIN provided. GIIN lookup skipped.</GIIN_DETAILS>
+        <GIIN_DATA />
+        <STATUS>
+          <Status>OK</Status>
+          <CallsRemaining>No Limit</CallsRemaining>
+        </STATUS>
+      </ValidateTinNameResult>
+    </ValidateTinNameResponse>
+  </soap:Body>
+</soap:Envelope>
